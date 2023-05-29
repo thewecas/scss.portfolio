@@ -255,11 +255,12 @@
 
 .contact {
   height: 100%;
-  padding-top: 40vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-basis: 33%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(255, 101, 47, 0.2)), url(../img/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -322,6 +323,7 @@
   }
   .contact_list {
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
   }
 }
 body {
